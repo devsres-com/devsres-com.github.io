@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on /dev/sres</title>
+    <link>/categories/kubernetes/</link>
+    <description>Recent content in Kubernetes on /dev/sres</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/categories/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Kubernetes IPVS Slowndown</title>
+      <link>/blog/kubernetes-ipvs-slowdown/</link>
+      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/kubernetes-ipvs-slowdown/</guid>
+      <description>When running Kubernetes 1.10, as our cluster kept growing larger and larger, we met a dead end: kube-proxy was taking, on extreme cases, over than 15 minutes to update an IPVS object.
+Sure, IPVS support was pretty experimental by that time, but even when this feature turned GA, it still wasn&amp;rsquo;t working for us.
+(If you know very little of Kubernetes, that means we could take up to 15 minutes to see an update endpoint on a loadbalancer.</description>
+    </item>
+    
+  </channel>
+</rss>
