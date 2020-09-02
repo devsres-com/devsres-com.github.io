@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on /dev/sres</title>
-    <link>/blog/</link>
-    <description>Recent content in Blog on /dev/sres</description>
+    <title>Iniciante on /dev/sres</title>
+    <link>/categories/iniciante/</link>
+    <description>Recent content in Iniciante on /dev/sres</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt</language>
     <lastBuildDate>Tue, 01 Sep 2020 23:38:44 -0300</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/categories/iniciante/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

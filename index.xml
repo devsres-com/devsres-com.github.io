@@ -5,30 +5,21 @@
     <link>/</link>
     <description>Recent content on /dev/sres</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sun, 03 Nov 2019 00:00:00 +0000</lastBuildDate>
+    <language>pt</language>
+    <lastBuildDate>Tue, 01 Sep 2020 23:38:44 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Kubernetes IPVS Slowndown</title>
-      <link>/blog/kubernetes-ipvs-slowdown/</link>
-      <pubDate>Sun, 03 Nov 2019 00:00:00 +0000</pubDate>
+      <title>Kubernetes: por onde começar?</title>
+      <link>/blog/kubernetes-por-onde-comecar/</link>
+      <pubDate>Tue, 01 Sep 2020 23:38:44 -0300</pubDate>
       
-      <guid>/blog/kubernetes-ipvs-slowdown/</guid>
-      <description>When running Kubernetes 1.10, as our cluster kept growing larger and larger, we met a dead end: kube-proxy was taking, on extreme cases, over than 15 minutes to update an IPVS object.
-Sure, IPVS support was pretty experimental by that time, but even when this feature turned GA, it still wasn&amp;rsquo;t working for us.
-(If you know very little of Kubernetes, that means we could take up to 15 minutes to see an update endpoint on a loadbalancer.</description>
-    </item>
-    
-    <item>
-      <title>Welcome</title>
-      <link>/blog/welcome/</link>
-      <pubDate>Sat, 02 Nov 2019 02:38:44 -0300</pubDate>
-      
-      <guid>/blog/welcome/</guid>
-      <description>Teste!</description>
+      <guid>/blog/kubernetes-por-onde-comecar/</guid>
+      <description>No último ano, aqui em Recife, tive a oportunidade de participar (e palestrar!) em alguns eventos. Em comum, havia o fato de muito de seus conteúdos - se não integralmente - estarem relacionados ao Kubernetes.
+Nas duas oportunidade em que fiz apresentações, entrei em detalhes sobre:
+ o desafio de usar o objeto Ingress - que, até a recém-lançada versão 1.19, ainda era beta, embora exista desde a versão 1.1; uma nova abordagem de como fazer a gerência de um cluster e a entrega contínua de aplicações: GitOps;  Embora eu sempre procure abordar o assunto de uma forma que não seja absolutamente incompreensível para quem não tenha qualquer tipo de contato com Kubernetes, em todos os eventos, me deparo com uma realidade: a de que existe muita gente interessada sobre Kubernetes, mas com bastante dificuldade de se introduzir a esta tecnologia.</description>
     </item>
     
   </channel>
