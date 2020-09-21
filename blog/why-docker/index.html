@@ -2,32 +2,32 @@
 <html lang="pt">
   <head>
   <meta charset="utf-8">
-<title>Kubernetes: por onde começar - Hugo Future Imperfect Slim em português</title>
+<title>Por que Docker? - Hugo Future Imperfect Slim em português</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="Kubernetes: por onde começar">
-<meta itemprop="description" content="Como dar os primeiros passos nesta tecnologia">
-<meta itemprop="datePublished" content="2020-09-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-09-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="764">
+<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="Por que Docker?">
+<meta itemprop="description" content="Docker e contêiners - razões diretas e pragmáticas perdidas em um texto bem menos direto e pragmático">
+<meta itemprop="datePublished" content="2020-09-21T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-09-21T00:00:00+00:00" />
+<meta itemprop="wordCount" content="784">
 <meta itemprop="image" content="">
 
 
 
-<meta itemprop="keywords" content="kubernete,iniciante," />
-<meta property="og:title" content="Kubernetes: por onde começar" />
-<meta property="og:description" content="Como dar os primeiros passos nesta tecnologia" />
+<meta itemprop="keywords" content="containers,docker,iniciando," />
+<meta property="og:title" content="Por que Docker?" />
+<meta property="og:description" content="Docker e contêiners - razões diretas e pragmáticas perdidas em um texto bem menos direto e pragmático" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://devsres.com/blog/kubernetes-where-to-start/" />
+<meta property="og:url" content="https://devsres.com/blog/why-docker/" />
 <meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-09-01T00:00:00+00:00" />
-<meta property="article:modified_time" content="2020-09-01T00:00:00+00:00" /><meta property="og:site_name" content="Hugo Future Imperfect Slim em português" />
+<meta property="article:published_time" content="2020-09-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-09-21T00:00:00+00:00" /><meta property="og:site_name" content="Hugo Future Imperfect Slim em português" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content=""/>
 
-<meta name="twitter:title" content="Kubernetes: por onde começar"/>
-<meta name="twitter:description" content="Como dar os primeiros passos nesta tecnologia"/>
+<meta name="twitter:title" content="Por que Docker?"/>
+<meta name="twitter:description" content="Docker e contêiners - razões diretas e pragmáticas perdidas em um texto bem menos direto e pragmático"/>
 <meta name="twitter:site" content="@marcelo_devsres"/>
 <link rel="stylesheet" href="/css/bundle.min.d9e04ae08c9b3049b766dbd4aeab7d862c5ea1d13679b621490e0f5df5507497.css" integrity="sha256-2eBK4IybMEm3ZtvUrqt9hixeodE2ebYhSQ4PXfVQdJc="><link rel="stylesheet" href="/css/add-on.css">
 </head>
@@ -135,37 +135,37 @@
 
   
     
-    <a href="//twitter.com/share?text=Kubernetes%3a%20por%20onde%20come%c3%a7ar&amp;url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+    <a href="//twitter.com/share?text=Por%20que%20Docker%3f&amp;url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
         <p>Twitter</p>
       </a>
   
 
   
-      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
         <p>Facebook</p>
         </a>
   
 
   
-    <a href="//www.reddit.com/submit?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;title=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn reddit">
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;title=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn reddit">
           <p>Reddit</p>
         </a>
   
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;title=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;title=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;description=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;description=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn pinterest">
           <p>Pinterest</p>
         </a>
   
 
   
-        <a href="mailto:?subject=Confira%20esta%20postagem%20por Marcelo%20Andrade&amp;body=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Confira%20esta%20postagem%20por Marcelo%20Andrade&amp;body=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -242,14 +242,14 @@
     <header>
   <div class="title">
     
-      <h2><a href="/blog/kubernetes-where-to-start/">Kubernetes: por onde começar</a></h2>
+      <h2><a href="/blog/why-docker/">Por que Docker?</a></h2>
     
     
-      <p>Como dar os primeiros passos nesta tecnologia</p>
+      <p>Docker e contêiners - razões diretas e pragmáticas perdidas em um texto bem menos direto e pragmático</p>
     
   </div>
   <div class="meta">
-    <time datetime="2020-09-01 00:00:00 &#43;0000 UTC">1 de September, 2020</time>
+    <time datetime="2020-09-21 00:00:00 &#43;0000 UTC">21 de September, 2020</time>
     <p>Marcelo Andrade</p>
     <p>4 Minutos De Leitura</p>
   </div>
@@ -263,37 +263,37 @@
 
   
     
-    <a href="//twitter.com/share?text=Kubernetes%3a%20por%20onde%20come%c3%a7ar&amp;url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+    <a href="//twitter.com/share?text=Por%20que%20Docker%3f&amp;url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
         <p>Twitter</p>
       </a>
   
 
   
-      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
+      <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" rel="noopener" class="nav share-btn facebook">
         <p>Facebook</p>
         </a>
   
 
   
-    <a href="//www.reddit.com/submit?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;title=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn reddit">
+    <a href="//www.reddit.com/submit?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;title=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn reddit">
           <p>Reddit</p>
         </a>
   
 
   
-        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;title=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn linkedin">
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;title=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn linkedin">
             <p>LinkedIn</p>
           </a>
   
 
   
-        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f&amp;description=Kubernetes%3a%20por%20onde%20come%c3%a7ar" target="_blank" rel="noopener" class="nav share-btn pinterest">
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f&amp;description=Por%20que%20Docker%3f" target="_blank" rel="noopener" class="nav share-btn pinterest">
           <p>Pinterest</p>
         </a>
   
 
   
-        <a href="mailto:?subject=Confira%20esta%20postagem%20por Marcelo%20Andrade&amp;body=https%3a%2f%2fdevsres.com%2fblog%2fkubernetes-where-to-start%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
+        <a href="mailto:?subject=Confira%20esta%20postagem%20por Marcelo%20Andrade&amp;body=https%3a%2f%2fdevsres.com%2fblog%2fwhy-docker%2f" target="_blank" class="nav share-btn email" data-proofer-ignore>
           <p>Email</p>
         </a>
   
@@ -301,49 +301,38 @@
 
     </div>
     <div class="content">
-      <a href="/blog/kubernetes-where-to-start/" class="image" style="--bg-image: url('https://devsres.com/img/reusable/kubernetes-helm-reallife.jpg');">
-    <img src="https://devsres.com/img/reusable/kubernetes-helm-reallife.jpg" alt="Helm on boat in real life">
+      <a href="/blog/why-docker/" class="image" style="--bg-image: url('https://devsres.com/img/reusable/boxes.jpg');">
+    <img src="https://devsres.com/img/reusable/boxes.jpg" alt="Boxes are containers">
   </a>
-      <p>No último ano, aqui em Recife, tive a oportunidade de participar (e palestrar!) em alguns eventos. Em comum, havia o fato de muito de seus conteúdos - se não integralmente - estarem relacionados ao Kubernetes.</p>
-<p>Nas duas oportunidade em que fiz apresentações, entrei em detalhes sobre:</p>
-<ul>
-<li>o desafio de usar o objeto Ingress - que, até a recém-lançada versão 1.19, ainda era beta, embora exista desde a versão 1.1;</li>
-<li>uma nova abordagem de como fazer a gerência de um cluster e a entrega contínua de aplicações: GitOps;</li>
-</ul>
-<p>Embora eu sempre procure abordar o assunto de uma forma que não seja absolutamente incompreensível para quem não tenha qualquer tipo de contato com Kubernetes, em todos os eventos, me deparo com uma realidade: a de que existe muita gente interessada sobre Kubernetes, mas com bastante dificuldade de se introduzir a esta tecnologia.</p>
-<p>Sempre me é feita uma pergunta: por onde começar? Como dou os primeiros passos? E eu nunca tenho uma resposta de qualidade a oferecer:  eu já &ldquo;aprendi tudo&rdquo; lá atrás, em um passado remoto no qual inexistia bons tutorials ou cursos, e a documentação descrevia o Kube Controller como &ldquo;the program that runs the control loops that controls the state of objects&rdquo; (ou algo assim).</p>
-<p>Felizmente, os tempos mudaram, e é ampla a documentação de cada mínimo aspecto relacionado ao Kubernetes, com bastante oferta de cursos (pagos e gratuitos) sobre o assunto.</p>
-<p>Sem mais delongas, <strong>por onde começar</strong> quando quer se aprender sobre Kubernetes?</p>
-<h1 id="kubeacademy">KubeAcademy</h1>
-<ul>
-<li><a href="https://kube.academy/">https://kube.academy/</a></li>
-</ul>
-<p>A VMware disponibilizou um excelente material (e, vale ressaltar <strong>completamente gratuito</strong>) sobre containers e Kubernetes. Os conteúdos são apresentados de maneira fácil de digerir, e alguns dos cursos inclusive contam com laboratórios práticos interativos com <strong>Katacoda</strong>, o que, na minha opinião, torna este conteúdo possivelmente o melhor disponível para uma apresentação inicial.</p>
-<p>A desvantagem para quem não domina o inglês é o uso de player próprio e a inexistência de legendas, embora seja possível regular a velocidade do player para melhorar a compreensão para aqueles não tão fluentes.</p>
-<h1 id="katacoda--instruqt">Katacoda / instruqt</h1>
-<ul>
-<li><a href="https://www.katacoda.com">https://www.katacoda.com</a></li>
-<li><a href="https://play.instruqt.com/public">https://play.instruqt.com/public</a></li>
-</ul>
-<p>O Katacoda, adquirido recentemente pela tradicional editora de livros técnicos O&rsquo;Reilly, por muito tempo, serviu como laboratório prático para quem não tem recursos para subir um cluster Kubernetes para prática pessoal.</p>
-<p>Os cursos dno Katacoda são interativos e executados diretamente no navegador, o que torna o processo simples e dinâmico. Antes de produção restrita, agora o Katacoda permite que qualquer um disposto a aprender a usar a plataforma possa criar seus próprios cursos com ela - o que</p>
-<p>O ponto negativo é que a maneira de abordar o conteúdo teórico fica em segundo plano. E, acredite, muito do trabalhar bem com Kubernetes adequadamente vem de entender a maneira e o porquê optou-se por resolver os problemas desta forma.</p>
-<p>Instruqt é bastante semelhante em abordagem ao Katacoda; mas, no geral, a interface apresenta mais problemas e os cursos de Kubernetes em qualidade inferior.</p>
-<h1 id="kubernetesio">Kubernetes.io</h1>
-<p>A documentação do projeto vem crescendo em volume e qualidade a olhos vistos a cada versão que passa. A versão 1.18 introduziu a oferta em outros idiomas que não o inglês, o que nem imaginava que fosse acontecer algum dia.</p>
-<p>O destaque da documentação fica por parte dos <a href="https://kubernetes.io/docs/concepts/overview/"><strong>conceitos</strong></a>.  Muitos dos textos crípticos do começo foram reescritos de maneira compreensível, e agora as ideias são, sim, plenamente acessíveis ao &ldquo;grande público&rdquo;.</p>
-<p>Vale a pena mencionar que a documentação conta com duas seções extremamente valiosas para quem está aprendendo e pensa em tirar a certificação CKA/CKAD: a seção de <a href="https://kubernetes.io/docs/tasks/"><strong>Tasks</strong></a> e a de <a href="https://kubernetes.io/docs/tutorials/"><strong>Tutoriais</strong></a>.</p>
-<p>Embora o português esteja lá, a maior parte das páginas que acessei ainda está disponível apenas em inglês.</p>
-<h1 id="edx---introduction-to-kubernetes">EDX - Introduction to Kubernetes</h1>
-<p><a href="https://www.edx.org/course/introduction-to-kubernetes">https://www.edx.org/course/introduction-to-kubernetes</a></p>
-<p>Lembro que, à medida que novos membros chegavam à equipe, a recomendação padrão era a fazer este curso do EDX elaborado pela Linux Foundation - basicamente porque era a <strong>única opção</strong>.</p>
-<p>É possível ler grande parte dos conteúdos disponíveis sem custo adicional, mas vários recursos são oferecidos apenas aos pagantes.</p>
-<p>Deixo aqui esta entrada pelo valor histórico, mas acredito que a relevância deste curso hoje é limitada se comparado ao que já é oferecido pela documentação oficial do Kubernetes.</p>
-<h1 id="mas-e-em-português">Mas e em português?</h1>
-<p>Aqui, eu peço desculpas, mas vou ficar devendo.</p>
-<p>A qualidade dos materiais que tive a oportunidade de ler (inclusive em sites pagos) está entre o <strong>ruim</strong> e o <strong>sofrível</strong>.  Então, não tenho uma boa recomendação a oferecer.</p>
+      <p>Em conversas - principalmente com pessoas dos dois extremos do espectro de idade - sobre nosso glorioso mercado de TI vez por outra surge este questionamento: por que usar Docker?</p>
+<p>Eu tendo a reclamação, em especial de estudantes e do pessoal novo: em casa, sem um arsenal de ferramentas de CI/CD implantadas por terceiros, parece uma incrível bobagem e perda de tempo. Dockerfile, rede virtual, putz, pra que complicar, se eu posso rodar tudo na minha máquina sem problemas?</p>
+<p>(Já o pessoal antigo, é preguiça e má vontade: vá aprender a usar contêineres e saia da zona de conforto imediatamente!)</p>
+<h2 id="por-que-docker">Por que Docker?</h2>
+<p>Essa resposta é trivial:</p>
+<p><strong>Docker é simples; Docker é fácil de entender; Docker &ldquo;faz tudo&rdquo;</strong>.</p>
+<p>Docker abstrai a infinidade de detalhes necessários para a execução de contêineres no Linux com um cobertor quente, bonito e agradável que permite ao seu usuário ser produtivo com um mínimo de overhead no aprendizado de uma tecnologia &ldquo;colateral&rdquo;.</p>
+<p>E mais: o &ldquo;engine Docker&rdquo; vai muito além: o software veio cuidar de praticamente todas as etapas do ciclo de vida de um contêiner, desde sua criação até viabilizar que as imagens cheguem onde desejamos - seja no host, seja no Docker Registry, mantido pelo Docker! -, passando pela execução e manutenção dos containers e imagens no servidor.</p>
+<p>Existe uma pergunta muito mais difícil, que inclusive muitos administradores de sistemas que usam contêineres todos os dias nos últimos anos não sabe responder:</p>
+<p><strong>Se você não usar Docker, vai usar o quê?</strong></p>
+<p>Até mesmo pesquisar essa resposta é <a href="#sup1">difícil<sup>1</sup></a>; muitos dos conteúdos disponíveis sobre o assunto estão ou extremamente defasados ou simplesmente errados em suas comparações. A resposta a essa pergunta <strong>não atende às necessidades da maioria dos profissionais de TI</strong>, logo é irrelevante (você tem interesse na resposta? Se sim, <a href="https://twitter.com/marcelo_devsres">me</a> <a href="https://www.instagram.com/marcelo_devsres/">deixe</a> <a href="https://www.facebook.com/devsresnetwork">saber</a>!).</p>
+<p>Enquanto a &ldquo;concorrência&rdquo; não trabalhar isso, Docker será o líder incontestável em uso.</p>
+<h2 id="por-que-containers">Por que containers?</h2>
+<p>Falando a verdade, a pergunta correta não é &ldquo;por que usar Docker&rdquo;, e sim, por que usar contêineres. Esta sim, diferentemente da primeira, é uma pergunta sem resposta direta e imediata.</p>
+<p>Eu poderia copiar definições, justificativas e citar mil livros ou páginas importantes explicando o porquê da relevância da tecnologia de conteinerização sob as diferentes <a href="#sup2">óticas<sup>2</sup></a>. Mas, em verdade, o que falta para muitos é entender que problemas essa tecnologia veio resolver, e que pode ser resumido em uma sentença:</p>
+<p><strong>Contêineres resolvem o problema de &ldquo;na minha máquina funciona!&rdquo;.</strong></p>
+<p>Historicamente, sempre coube aos profissionais de infraestrutura o processo de implantação, manutenção e resolução de problemas em ambientes que executam programas elaborados por terceiros. E um desafio tradicional dessa época era a divergência entre os ambientes em que os softwares eram desenvolvidos, homologados e, por fim, postos em produção.</p>
+<p>Não era incomum ajustes nos ambientes serem feitos &ldquo;em tempo de homologação&rdquo; para corrigir problemas e se perderem na &ldquo;não documentação&rdquo; do sistema, que era passada para as áreas de operações implantarem (e, consequentemente, falharem). Também não era incomum o uso de plataformas radicalmente diferentes e incompatíveis entre si, gerando conflitos homéricos sobre o uso de versão de um sistema operacional não internalizado pela empresa, ou a necessidade de atualização de um serviço para uma tecnologia de pouco domínio por parte dos administradores de serviços. Mesmo para tecnologias que naturalmente são pensadas para &ldquo;rodar em todo lugar&rdquo;, como Java, encontra problemas com versões e parametrizações específicas que podem se perder na transição entre ambientes.</p>
+<p>Contêineres, por definição, resolvem o problema de &ldquo;reproducibilidade de resultados&rdquo;, ou &ldquo;portabilidade&rdquo; das aplicações: uma imagem Docker é gerada para a sua aplicação, com todos os arquivos (como elementos do sistema operacional, bibliotecas e utilitários) e configurações necessários para sua execução. Uma consequência comum da adoção deste modelo é a obrigatoriedade de adoção de um mínimo de boas práticas, como por exemplo a parametrização para que a aplicação receba configurações que variam de ambiente para ambiente.</p>
+<p>Este problema já foi amplamente abordado no passado como virtualização de servidores e tecnologias de orquestração e gestão de configuração; nenhuma delas, entretanto, resolveu com a elegância e simplicidade de simplesmente &ldquo;socar&rdquo; tudo que é necessário em uma unidade parametrizável e orquestrável.</p>
+<p>A partir desta entidade <a href="#sup3"><strong>Contêiner</strong><sup>3</sup></a> que trivializa a implantação (&quot;<em>deploy</em>&quot;) de um software, está aberto agora o caminho para a construção de novas soluções que resolvam outros problemas do processo de desenvolvimento de software e otimizem ainda mais o processo de entrega de resultados por parte das equipes.</p>
 <hr>
-<p><em>Se você conhecer algum bom site com conteúdo de Kubernetes em português e quiser recomendar, entre em contato por qualquer uma das minhas redes sociais que eu terei um prazer enorme em incluí-los nesta lista!</em></p>
+<p><sup id=sup1>1</sup> Os melhores links sequer apareciam na página principal do Google:</p>
+<ul>
+<li><a href="https://www.capitalone.com/tech/cloud/container-runtime/">A Comprehensive Container Runtime Comparison</a></li>
+<li><a href="https://wiki.aquasec.com/display/containers/Docker+Alternatives+-+Rkt%2C+LXD%2C+OpenVZ%2C+Linux+VServer%2C+Windows+Containers">Aquasec: Docker Alternatives</a></li>
+</ul>
+<p><sup id=sup2>2</sup> <a href="https://duvidas.dicio.com.br/optica-optico-otica-ou-otico/">&ldquo;Ópticas&rdquo; é muito feio.</a></p>
+<p><sup id=sup2>3</sup> Observe que, no Linux, &ldquo;Contêiner&rdquo; <strong>não</strong> é uma primitiva do sistema operacional, e sim um conjunto destas. Do ponto de vista prático, acaba sendo uma.</p>
 
     </div>
     <footer>
@@ -352,7 +341,9 @@
     <ul class="categories">
       
         
-          <li><a class="article-terms-link" href="/categories/kubernetes/">Kubernetes</a></li>
+          <li><a class="article-terms-link" href="/categories/containers/">containers</a></li>
+        
+          <li><a class="article-terms-link" href="/categories/docker/">docker</a></li>
         
           <li><a class="article-terms-link" href="/categories/iniciando/">Iniciando</a></li>
         
@@ -363,9 +354,11 @@
     <ul class="tags">
       
         
-          <li><a class="article-terms-link" href="/tags/kubernete/">kubernete</a></li>
+          <li><a class="article-terms-link" href="/tags/containers/">containers</a></li>
         
-          <li><a class="article-terms-link" href="/tags/iniciante/">iniciante</a></li>
+          <li><a class="article-terms-link" href="/tags/docker/">docker</a></li>
+        
+          <li><a class="article-terms-link" href="/tags/iniciando/">iniciando</a></li>
         
       
     </ul>
@@ -405,8 +398,8 @@
   
   <div class="pagination">
     
-      <a href="/blog/why-docker/" class="button left"><span>Por que Docker?</span></a>
     
+      <a href="/blog/kubernetes-where-to-start/" class="button right"><span>Kubernetes: por onde começar</span></a>
     
   </div>
 
