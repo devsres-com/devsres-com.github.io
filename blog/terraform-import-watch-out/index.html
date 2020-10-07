@@ -10,7 +10,7 @@
 <meta itemprop="description" content="Importando recursos que usam count e for_each">
 <meta itemprop="datePublished" content="2020-10-06T00:00:00+00:00" />
 <meta itemprop="dateModified" content="2020-10-06T00:00:00+00:00" />
-<meta itemprop="wordCount" content="1280">
+<meta itemprop="wordCount" content="1281">
 <meta itemprop="image" content="">
 
 
@@ -310,7 +310,7 @@
 <p>Basta escrever meia dúzia de arquivos que algum programa magicamente interpreta tudo e cria coisas mágicas para você. Fantástico! O único problema é aprender a usar direito.</p>
 <p>A Hashicorp, até alguns anos atrás, fazia documentações tão crípticas e ilegíveis que eventualmente perceberam que era necessário um esforço maior para &ldquo;mentes menores&rdquo; compreenderem seus softwares. Com isso, investiram somas substanciais de dinheiro fazendo sites como o <a href="https://learn.hashicorp.com/terraform">Learn Hashicorp</a> ou mesmo workshops gratuitos interativos com <a href="https://play.instruqt.com/hashicorp">Instruqt</a>. Eles realmente têm feito um bom trabalho nessa seara.</p>
 <p>Em muitos aspectos, o Terraform ainda é deficiente.</p>
-<p>Às vezes é <strong>pura frescura</strong>: vide o <strong>terraform-provider-kubernetes</strong>, que simplesmente se recusava a implementar APIs betas por anos, tornando-o praticamente inútil. E mesmo quando deployments chegaram a GA,  e demorou <a href="https://github.com/hashicorp/terraform-provider-kubernetes/issues/3">quase um ano</a> para implementar elementos básicos como <strong>deployments</strong> mesmo quando estes subiram à GA.</p>
+<p>Às vezes é <strong>pura frescura</strong>: vide o <strong>terraform-provider-kubernetes</strong>, que simplesmente se recusava a implementar APIs betas por anos, tornando-o praticamente inútil. E mesmo quando <strong>deployments</strong> chegaram à GA,  demorou <a href="https://github.com/hashicorp/terraform-provider-kubernetes/issues/3">quase um ano</a> para implementar este elemento que é considerado como pedra fundamental para qualquer aplicação Kubernetes.</p>
 <p>Mas muitas vezes nem é culpa da Hashicorp: a integração com <strong>VMware</strong>, mesmo com as últimas funcionalidades implementadas pela última versão, é, literalmente, <strong>um horror</strong>. E o problema aqui são as severas limitações funcionais das APIs públicas disponibilizadas pela própria VMWare.</p>
 <p>Mas chega de &lsquo;rant&rsquo;: vamos a conteúdo!</p>
 <h2 id="terraform-import">Terraform import</h2>
@@ -394,7 +394,7 @@
 <p>Após a execução do comando errado, fui agraciado com a seguinte mensagem:</p>
 <pre><code># terraform apply 
 ...
-module.vmware-cluster-k8s-raw.vsphere_virtual_machine.vm[&quot;ingress34&quot;]: Refreshing state... [id=421ab407-1bc3-dceb-6906-72fe3fad4c0e]
+module.vmware-cluster-k8s-raw.vsphere_virtual_machine.vm[&quot;ingress3&quot;]: Refreshing state... [id=421ab407-1bc3-dceb-6906-72fe3fad4c0e]
 
 Error: Unsupported attribute
 
